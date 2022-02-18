@@ -1,0 +1,17 @@
+.glavni {
+  color: blue;
+  background-color: red;
+  font-size: 90px;
+  height: 400px;
+  width: 400px;
+  font-family: "Courier New", Courier, monospace;
+}
+.sporedni {
+  color: red;
+  font-size: 20px;
+}
+
+.vazno {
+  color: gold;
+  font-size: 30px;
+}
