@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 230px;
+}
+
+.card {
+  background-color: rgb(230, 227, 227);
+  width: 330px;
+  height: 120px;
+  padding: 25px 20px;
+  padding-bottom: 10px;
+  display: inline-block;
+  margin: 0 25px;
+  border-radius: 6px;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-bottom: -8px;
+}
+
+h1 {
+  font-size: 21px;
+  display: inline-block;
+}
+p {
+  font-size: 13px;
+  margin-top: 15px;
+}
+h5 {
+  margin-top: 15px;
+}
