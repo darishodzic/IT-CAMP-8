@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 250px;
+}
+
+.card {
+  width: 350px;
+  height: 430px;
+  padding: 15px;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 0 45px;
+}
+
+.popular p {
+  background-color: blue;
+  color: white;
+  padding: 5px 13px;
+  float: right;
+  margin-top: -15px;
+  margin-right: -15px;
+  font-size: 14px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 9px;
+}
+.header {
+  border-bottom: 1px solid grey;
+  margin-top: 20px;
+}
+.header h1 {
+  font-size: 40px;
+}
+
+.header h1 span {
+  font-size: 20px;
+  font-weight: 300;
+}
+.descWrapper {
+  margin-bottom: 70px;
+  height: 140px;
+}
+
+.desc {
+  margin: 19px 0;
+}
+
+.desc p {
+  display: inline-block;
+  font-size: 19px;
+}
+
+.button {
+  background-color: blue;
+  font-size: 17px;
+  font-weight: 600;
+  color: white;
+  padding: 10px;
+  margin: 20px 0;
+}
