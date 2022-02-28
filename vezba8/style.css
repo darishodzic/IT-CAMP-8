@@ -1,0 +1,25 @@
+.header {
+  background-color: beige;
+  width: 800px;
+  height: 180px;
+  position: relative;
+}
+
+.logo,
+.top-menu,
+.menu {
+  border: 1px solid black;
+  position: absolute;
+  padding: 20px 140px;
+}
+
+.top-menu {
+  right: 0px;
+  padding: 10px 40px;
+}
+
+.menu {
+  bottom: 0px;
+  right: 0px;
+  padding: 10px 300px;
+}
