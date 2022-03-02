@@ -1,0 +1,45 @@
+.main {
+  background-color: beige;
+  height: 200vh;
+  padding-top: 200px;
+}
+
+.icon {
+  background-color: purple;
+  padding: 20px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.nav {
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+
+.logo,
+.links,
+p {
+  display: inline-block;
+}
+
+.logo {
+  font-size: 30px;
+  margin: 20px;
+}
+
+.links {
+  margin: 20px;
+
+  float: right;
+}
+
+p {
+  margin: 5px 15px;
+  padding: 15px 19px;
+}
+
+p:hover {
+  background-color: aqua;
+}
