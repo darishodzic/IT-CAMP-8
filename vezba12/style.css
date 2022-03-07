@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 500px;
+  height: 500px;
+  background-color: red;
+}
+
+div {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+}
+
+main:hover div {
+  visibility: hidden;
+}
