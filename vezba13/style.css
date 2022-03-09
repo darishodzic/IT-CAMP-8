@@ -1,0 +1,18 @@
+table {
+  background-color: whitesmoke;
+  width: 90%;
+  height: 60vh;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid black;
+  text-align: left;
+  font-size: 25px;
+}
+
+tr:nth-child(even) {
+  background-color: grey;
+}
