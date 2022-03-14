@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.prvi,
+.drugi,
+.treci {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 2rem;
+  animation: anim;
+  animation-duration: 1.2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 7px;
+}
+
+.container {
+  display: flex;
+}
+
+.prvi {
+  animation-delay: 0.2s;
+}
+
+.drugi {
+  animation-delay: 0.4s;
+}
+
+@keyframes anim {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
