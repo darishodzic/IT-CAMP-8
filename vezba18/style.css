@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 950px;
+  height: 500px;
+  background-color: beige;
+  display: flex;
+}
+
+.prvi,
+.drugi {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+}
+
+.drugi {
+  background-color: green;
+}
