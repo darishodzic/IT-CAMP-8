@@ -218,14 +218,87 @@
 //   }
 // }
 
-kolicina = Number(prompt("Enter your krajnja: "));
+// kolicina = Number(prompt("Enter your krajnja: "));
 
-broj = "";
-sum = 0;
+// broj = "";
+// sum = 0;
 
-for (i = 1; i <= kolicina; i++) {
-  broj += 1;
-  sum += parseInt(broj);
-}
+// for (i = 1; i <= kolicina; i++) {
+//   broj += 1;
+//   sum += parseInt(broj);
+// }
 
-console.log(sum);
+// console.log(sum);
+
+// sifra = "daris123";
+
+// unos = prompt("Enter your password: ");
+
+// while (sifra !== unos) {
+//   console.log("Wrong password!");
+//   unos = prompt("Wrong password,Enter your password: ");
+// }
+
+// console.log("++++++++++++++++");
+// console.log("You are logged in!");
+
+// random = Math.round(Math.random() * 100);
+
+// unos = parseInt(prompt("Unesite broj"));
+
+// while (unos !== random) {
+//   console.log("Wrong number");
+
+//   if (unos > random) {
+//     unos = parseInt(prompt("Pokusajte opet, broj is too high"));
+//   } else {
+//     unos = parseInt(prompt("Pokusajte opet, broj is too low"));
+//   }
+// }
+
+// console.log("Bravo");
+
+// unos = parseInt(prompt("Unesite broj"));
+// sum = 0;
+
+// while (unos >= 0) {
+//   sum += unos;
+//   unos = parseInt(prompt("Unesite opet broj"));
+// }
+
+// console.log(sum);
+
+// kod = "END";
+// unos = prompt("Enter your name: ");
+
+// while (kod !== unos) {
+//   console.log(unos);
+//   unos = prompt("Enter your name: ");
+// }
+
+// while (true) {
+//   unos = prompt("Enter your name: ");
+//   if (unos === "END") {
+//     break;
+//   }
+//   console.log(unos);
+// }
+
+// brojac = 0;
+
+// while (brojac < 100) {
+//   console.log(brojac);
+//   brojac++;
+// }
+
+// kolicina = Number(prompt("Koliko vam treba neparnih: "));
+// pronadjeno = 0;
+// broj = 1;
+
+// while (pronadjeno !== kolicina) {
+//   if (broj % 2 === 1) {
+//     pronadjeno++;
+//     console.log(broj);
+//   }
+//   broj++;
+// }
