@@ -302,3 +302,91 @@
 //   }
 //   broj++;
 // }
+
+// numbers = [3, 5, 10, 21, 42, 22, 1];
+// sum = 0;
+
+// for (i = 0; i < numbers.length; i++) {
+//   sum += numbers[i];
+// }
+
+// console.log("Suma je: " + sum);
+
+// numbers = [3, 5, 10, 21, 42, 22, 1];
+// unos = parseInt(prompt("Unesite broj: "));
+// founded = false;
+
+// for (i = 0; i < numbers.length; i++) {
+//   if (numbers[i] === unos) {
+//     founded = true;
+//     break;
+//   }
+// }
+
+// if (founded) {
+//   console.log("Broj je pronadjen");
+// } else {
+//   console.log("Broj nije pronadjen");
+// }
+
+// numbers = [3, 5, 10, 21, 42, 22, 1];
+// maxNum = numbers[0];
+// minNum = numbers[0];
+
+// for (i = 0; i < numbers.length; i++) {
+//   if (numbers[i] > maxNum) {
+//     maxNum = numbers[i];
+//   }
+//   if (numbers[i] < minNum) {
+//     minNum = numbers[i];
+//   }
+// }
+
+// console.log("Najveci broj je: " + maxNum);
+// console.log("Najmanji broj je: " + minNum);
+
+// numbers = [3, 5, 10, 21, 42, 22, 1];
+// first = numbers[0];
+// second = numbers[0];
+
+// for (i = 0; i < numbers.length; i++) {
+//   if (numbers[i] > first) {
+//     first = numbers[i];
+//   }
+//   if (numbers[i] > second && numbers[i] < first) {
+//     second = numbers[i];
+//   }
+// }
+
+// console.log("Drugi najveci je", second);
+
+// numbers = [3, 5, 10, 21, 42, 22, 1];
+// maxNum = numbers[0];
+// minNum = numbers[0];
+
+// for (i = 0; i < numbers.length; i++) {
+//   if (numbers[i] > maxNum) {
+//     maxNum = numbers[i];
+//   }
+//   if (numbers[i] < minNum) {
+//     minNum = numbers[i];
+//   }
+// }
+
+// console.log("Ralika je", maxNum - minNum);
+
+numbers = [3, 5, 10, 21, 0, 22, 1];
+founded = false;
+
+for (i = 0; i < numbers.length; i++) {
+  if (numbers[i] === 0 || numbers[i] === -1) {
+    founded = true;
+    break;
+  }
+}
+
+if (founded) {
+  console.log("Broj je pronadjen");
+} else {
+  console.log("Broj nije pronadjen");
+}
