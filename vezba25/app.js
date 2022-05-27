@@ -375,18 +375,95 @@
 
 // console.log("Ralika je", maxNum - minNum);
 
-numbers = [3, 5, 10, 21, 0, 22, 1];
-founded = false;
+// numbers = [1, 2, 3, 4, 5, 65, 7, 8, 9, 77, 10];
 
-for (i = 0; i < numbers.length; i++) {
-  if (numbers[i] === 0 || numbers[i] === -1) {
-    founded = true;
-    break;
+// for (num of numbers) {
+//   if (num === 65 || num === 77) {
+//     console.log(num);
+//     break;
+//   }
+// }
+
+// numbers = [1, 2, 3];
+
+// console.log(numbers[5]);
+// console.log(numbers.length);
+// console.log(numbers);
+
+// numbers.push(Number(prompt("Unesite broj")));
+
+// console.log(numbers);
+
+// numbers = [1, 2, 3];
+
+// console.log(numbers);
+
+// numbers.pop();
+
+// console.log(numbers);
+
+// numbers = [1, 2, 3];
+// console.log(numbers);
+
+// a = numbers.shift();
+// console.log(a);
+// console.log(numbers);
+
+// numbers = [1, 2, 3];
+// console.log(numbers);
+
+// numbers.unshift(5);
+// console.log(numbers);
+
+// arr1 = [1, 20, 3, 50];
+// arr2 = [];
+
+// for (el of arr1) {
+//   arr2.unshift(el);
+// }
+// console.log(arr1);
+// console.log(arr2);
+// kolicina = Number(prompt("Koliko vam treba el: "));
+// arr = [];
+
+// for (i = 0; i < kolicina; i++) {
+//   arr.push(Number(prompt("Unesite el: ")));
+// }
+
+// console.log(arr);
+
+// myColor = ["Red", "Green", "White", "Black"];
+// str = myColor[0];
+// for (i = 1; i < myColor.length; i++) {
+//   str += "+" + myColor[i];
+// }
+
+// console.log(str)
+
+// str = "The Quick Brown Fox";
+// res = "";
+
+// for (i = 0; i < str.length; i++) {
+//   if (i % 2 === 0) {
+//     res += str[i].toUpperCase();
+//   } else {
+//     res += str[i].toLowerCase();
+//   }
+// }
+
+// console.log(res);
+
+arr = [42, 25, 56, 47, 32];
+
+parni = [];
+neparni = [];
+for (el of arr) {
+  if (el % 2 === 0) {
+    parni.push(el);
+  } else {
+    neparni.push(el);
   }
 }
 
-if (founded) {
-  console.log("Broj je pronadjen");
-} else {
-  console.log("Broj nije pronadjen");
-}
+console.log("Parni su: ", parni);
+console.log("Neparni su: ", neparni);
