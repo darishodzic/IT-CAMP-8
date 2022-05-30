@@ -453,17 +453,94 @@
 
 // console.log(res);
 
-arr = [42, 25, 56, 47, 32];
+// arr = [42, 25, 56, 47, 32];
 
-parni = [];
-neparni = [];
-for (el of arr) {
-  if (el % 2 === 0) {
-    parni.push(el);
-  } else {
-    neparni.push(el);
+// parni = [];
+// neparni = [];
+// for (el of arr) {
+//   if (el % 2 === 0) {
+//     parni.push(el);
+//   } else {
+//     neparni.push(el);
+//   }
+// }
+
+// console.log("Parni su: ", parni);
+// console.log("Neparni su: ", neparni);
+
+// arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// a = arr.slice(1, 6);
+// console.log(arr);
+// console.log(a);
+
+// arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// arr.splice(1, 3, "Izbrisan je ovde", "asd", false);
+// console.log(arr);
+
+// function sum(a, b) {
+//   console.log("Zbir je: ", a + b);
+// }
+
+// sum(3, 7);
+
+// sum(10, 2);
+
+// sum(Number(prompt("Unesite broj")), 1);
+
+// function findLargest(arr) {
+//   max = arr[0];
+//   for (el of arr) {
+//     if (el > max) {
+//       max = el;
+//     }
+//   }
+
+//   console.log("Najveci broj je: ", max);
+// }
+
+// findLargest([1, 2, 7, 3]);
+
+// console.log("1000lines of code");
+
+// findLargest([1, 2, 3, 4, 5, 6, 7, 8]);
+
+// console.log("asd".includes("b"));
+
+// function checkIsAnagram(a, b) {
+//   isAnagram = true;
+//   if (a.length !== b.length) {
+//     isAnagram = false;
+//   }
+//   for (char of a) {
+//     if (!b.includes(char)) {
+//       isAnagram = false;
+//     }
+//   }
+//   if (isAnagram) {
+//     console.log("Anagram");
+//   } else {
+//     console.log("Not anagram");
+//   }
+// }
+
+// checkIsAnagram("spare", "peers");
+
+// function calculateAverage(a, b, c) {
+//   console.log("Average is : ", (a + b + c) / 3);
+// }
+
+// calculateAverage(1, 2, 3);
+
+function matrix(n) {
+  for (i = 0; i < n; i++) {
+    str = "";
+    for (j = 0; j < n; j++) {
+      str += i;
+    }
+    console.log(str);
   }
 }
 
-console.log("Parni su: ", parni);
-console.log("Neparni su: ", neparni);
+matrix(10);
