@@ -533,14 +533,34 @@
 
 // calculateAverage(1, 2, 3);
 
-function matrix(n) {
-  for (i = 0; i < n; i++) {
-    str = "";
-    for (j = 0; j < n; j++) {
-      str += i;
-    }
-    console.log(str);
-  }
+// function matrix(n) {
+//   for (i = 0; i < n; i++) {
+//     str = "";
+//     for (j = 0; j < n; j++) {
+//       str += i;
+//     }
+//     console.log(str);
+//   }
+// }
+
+// matrix(10);
+
+function sum(a, b) {
+  return a + b;
 }
 
-matrix(10);
+zbir = sum(2, 3);
+console.log(zbir);
+
+function sameCase(a, b) {
+  if (!/^[a-zA-Z]+$/.test(a) || !/^[a-zA-Z]+$/.test(b)) {
+    return -1;
+  }
+  if (
+    (a.toLowerCase() === a && b.toLowerCase() === b) ||
+    (a.toUpperCase() === a && b.toUpperCase() === b)
+  ) {
+    return 1;
+  }
+  return 0;
+}
