@@ -545,22 +545,87 @@
 
 // matrix(10);
 
-function sum(a, b) {
-  return a + b;
-}
+// function sum(a, b) {
+//   return a + b;
+// }
 
-zbir = sum(2, 3);
-console.log(zbir);
+// zbir = sum(2, 3);
+// console.log(zbir);
 
-function sameCase(a, b) {
-  if (!/^[a-zA-Z]+$/.test(a) || !/^[a-zA-Z]+$/.test(b)) {
-    return -1;
+// function sameCase(a, b) {
+//   if (!/^[a-zA-Z]+$/.test(a) || !/^[a-zA-Z]+$/.test(b)) {
+//     return -1;
+//   }
+//   if (
+//     (a.toLowerCase() === a && b.toLowerCase() === b) ||
+//     (a.toUpperCase() === a && b.toUpperCase() === b)
+//   ) {
+//     return 1;
+//   }
+//   return 0;
+// }
+
+// function sayHello(a) {
+//   console.log("Neki code");
+//   a();
+//   console.log("Neki code 2");
+// }
+
+// function mojaFunkcija() {
+//   console.log("Ja sam callback");
+// }
+
+// // sayHello(mojaFunkcija);
+
+// sayHello(() => {
+//   console.log("Nesto nesto nesto");
+// });
+
+// function a() {
+//   console.log("Hello");
+// }
+
+// a();
+
+// b = function () {
+//   console.log("Hello");
+// };
+
+// b();
+
+// c = () => {
+//   console.log("Hello");
+// };
+
+// c();
+
+// arr = [1, 2, 3, 4];
+
+// mojaF = (e, i, a) => {
+//   console.log(e, "je na indexu:", i);
+//   console.log(a);
+// };
+
+// for (i = 0; i < arr.length; i++) {
+//   mojaF(arr[i], i, arr);
+// }
+
+// arr.forEach(mojaF);
+
+// arr = [3, 9, 1, 27, 54, 23];
+
+// arr.forEach((el) => {
+//   console.log(el);
+// });
+
+data = [1, 2, 3, 1, 2];
+
+arr = [];
+
+data.forEach((el) => {
+  if (el !== 1 && el !== 2) {
+    arr.push(el);
   }
-  if (
-    (a.toLowerCase() === a && b.toLowerCase() === b) ||
-    (a.toUpperCase() === a && b.toUpperCase() === b)
-  ) {
-    return 1;
-  }
-  return 0;
-}
+});
+
+console.log(arr);
