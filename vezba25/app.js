@@ -618,14 +618,134 @@
 //   console.log(el);
 // });
 
-data = [1, 2, 3, 1, 2];
+// data = [1, 2, 3, 1, 2];
 
-arr = [];
+// arr = [];
 
-data.forEach((el) => {
-  if (el !== 1 && el !== 2) {
-    arr.push(el);
+// data.forEach((el) => {
+//   if (el !== 1 && el !== 2) {
+//     arr.push(el);
+//   }
+// });
+
+// console.log(arr);
+
+// a = {
+//   name: "Daris",
+//   age: 21,
+// };
+
+// // b = ["Daris", 21];
+
+// b = {
+//   asd: "Daris",
+//   1: 21,
+// };
+
+// console.log(b.asd);
+
+// car = ["Fiat", "Nesto", "Crveni", "30.000", "ima tockove", "120hp", "2003"];
+
+// car = {
+//   name: "Fiat",
+//   model: "Nesto",
+//   color: "Crveni",
+//   price: "30.000",
+//   hasTorque: "ima tockove",
+//   torque: "120hp",
+//   year: "2003",
+// };
+
+// console.log(car);
+
+// mat = {
+//   random: function () {
+//     return 6;
+//   },
+// };
+
+// a = mat.random();
+// console.log(a);
+
+// library = [
+//   {
+//     author: "Bill Gates",
+//     title: "The Road Ahead",
+//     readingStatus: true,
+//   },
+//   {
+//     author: "Steve Jobs",
+//     title: "Walter Isaacson",
+//     readingStatus: true,
+//   },
+//   {
+//     author: "Suzanne Collins",
+//     title: "Mockingjay: The Final Book of The Hunger Games",
+//     readingStatus: false,
+//   },
+// ];
+
+// library.forEach((a) => {
+//   console.log(a.author, " : ", a.readingStatus);
+// });
+
+// mojaF();
+
+// function mojaF() {
+//   console.log("Hello");
+// }
+//hoisting
+
+arr = [1, 2, 3, 4];
+
+function square(a) {
+  return a ** 2;
+}
+
+a = arr.map(square);
+function nasMap(arr, callback) {
+  a = [];
+  for (i = 0; i < arr.length; i++) {
+    el = callback(arr[i]);
+    a.push(el);
   }
+  return a;
+}
+
+b = nasMap(arr, (el) => {
+  return el * 100;
 });
 
-console.log(arr);
+console.log(b);
+
+// const car = {
+//   name: "Fiat",
+//   drive: () => {
+//     console.log("You starded driving");
+//   },
+// };
+
+// car.drive();
+
+// const zmijica = {
+//   length: 10,
+//   color: "Green",
+//   name: "Zmijica",
+//   turnRight: () => {
+//     console.log("zmijica skrece desno");
+//   },
+//   turnLeft: () => {
+//     console.log("zmijica skrece lijevo");
+//   },
+//   eatApple: () => {
+//     console.log("zmijica je uzele jabuke");
+//   },
+// };
+
+// zmijica.turnRight();
+// zmijica.turnRight();
+// zmijica.turnLeft();
+
+// zmijica.eatApple();
+// zmijica.turnRight();
+// zmijica.eatApple();
