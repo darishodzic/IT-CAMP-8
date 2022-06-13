@@ -696,27 +696,27 @@
 // }
 //hoisting
 
-arr = [1, 2, 3, 4];
+// arr = [1, 2, 3, 4];
 
-function square(a) {
-  return a ** 2;
-}
+// function square(a) {
+//   return a ** 2;
+// }
 
-a = arr.map(square);
-function nasMap(arr, callback) {
-  a = [];
-  for (i = 0; i < arr.length; i++) {
-    el = callback(arr[i]);
-    a.push(el);
-  }
-  return a;
-}
+// a = arr.map(square);
+// function nasMap(arr, callback) {
+//   a = [];
+//   for (i = 0; i < arr.length; i++) {
+//     el = callback(arr[i]);
+//     a.push(el);
+//   }
+//   return a;
+// }
 
-b = nasMap(arr, (el) => {
-  return el * 100;
-});
+// b = nasMap(arr, (el) => {
+//   return el * 100;
+// });
 
-console.log(b);
+// console.log(b);
 
 // const car = {
 //   name: "Fiat",
@@ -748,4 +748,68 @@ console.log(b);
 
 // zmijica.eatApple();
 // zmijica.turnRight();
-// zmijica.eatApple();
+// // zmijica.eatApple();
+
+// car = {
+//   type: "Fiat",
+//   model: "500",
+//   color: "white",
+//   price: 10000,
+//   equipment: ["ABS", "Air Conditioner", "Parking Sensor"],
+//   year: 2003,
+//   hp: 120,
+//   drive: () => {
+//     console.log("You started driving");
+//   },
+//   startOn: () => {
+//     console.log("You started engine");
+//   },
+// };
+
+// car2 = {
+//   type: "Fiat",
+//   model: "500",
+//   color: "white",
+//   price: 10000,
+//   equipment: ["ABS", "Air Conditioner", "Parking Sensor"],
+//   year: 2003,
+//   hp: 120,
+//   drive: () => {
+//     console.log("You started driving");
+//   },
+//   startOn: () => {
+//     console.log("You started engine");
+//   },
+// };
+
+// console.log(car == car2);
+
+// a = [1, 2, 3];
+
+// b = a;
+
+// a.push(4);
+
+// console.log(a);
+// console.log(b);
+
+// a = [1, 2, 3];
+
+// b = [1, 2, 3];
+
+// console.log(a == b);
+
+// console.log("DARiasss");
+
+function digitize(n) {
+  //123
+  //[3,2,1]
+
+  arr = [];
+
+  str = n.toString();
+  for (el of str) {
+    arr.unshift(parseInt(el));
+  }
+  return arr;
+}
