@@ -801,15 +801,44 @@
 
 // console.log("DARiasss");
 
-function digitize(n) {
-  //123
-  //[3,2,1]
+// function digitize(n) {
+//   //123
+//   //[3,2,1]
 
-  arr = [];
+//   arr = [];
 
-  str = n.toString();
-  for (el of str) {
-    arr.unshift(parseInt(el));
-  }
-  return arr;
-}
+//   str = n.toString();
+//   for (el of str) {
+//     arr.unshift(parseInt(el));
+//   }
+//   return arr;
+// }
+
+// console.log("1");
+
+// setTimeout(() => {
+//   console.log("Darissss");
+// }, 2000);
+
+// console.log("2");
+// console.log("2");
+
+// console.log("1");
+
+// fetch("https://jsonplaceholder.typicodeeee.com/users")
+//   .then((res) => {
+//     console.log(res);
+//   })
+//   .catch((err) => {
+//     console.log("greska pri fetchanjuuuu");
+//   });
+
+// console.log("2");
+
+//asynchronous
+//callbacks
+//callbaks hell
+//promises
+//http i https
+//fetch
+//sta je internet
