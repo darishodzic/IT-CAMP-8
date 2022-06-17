@@ -842,3 +842,77 @@
 //http i https
 //fetch
 //sta je internet
+
+// function c() {
+//   console.log("ja sam c");
+// }
+
+// function b() {
+//   console.log("ja sam b");
+//   c();
+// }
+
+// function a() {
+//   console.log("ja sam a");
+//   b();
+// }
+
+// a();
+
+// let myPromise = new Promise(function(myResolve, myReject) {
+//     setTimeout(function() { myResolve("I love You !!"); }, 3000);
+//   });
+
+// myPromise = new Promise((resolve, reject) => {
+//   num = Math.random() * 10;
+
+//   if (num > 5) {
+//     resolve(num);
+//   }
+//   reject(`Broj je manji od 5 (${num})`);
+// });
+
+// myPromise
+//   .then((res) => {
+//     console.log("Promise je resolved", res);
+//   })
+//   .catch((err) => {
+//     console.log(err);
+//   });
+
+// console.log("hello");
+
+// fetch("https://jsonplaceholder.typicode.com/users")
+//   .then((res) => {
+//     return res.json();
+//   })
+//   .then((res) => {
+//     console.log(res);
+//   })
+//   .catch((err) => {
+//     console.log("DEsio se reject", err);
+//   });
+
+// prom = new Promise((resolve, reject) => {
+//   resolve();
+// });
+
+// console.log("1");
+
+// prom.then(() => {
+//   console.log("promise");
+// });
+
+// console.log("2");
+
+console.log("a");
+
+setTimeout(() => {
+  console.log("1");
+}, 5000);
+
+setTimeout(() => {
+  console.log("2");
+}, 1000);
+
+console.log("b");
