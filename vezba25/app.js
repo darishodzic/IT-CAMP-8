@@ -905,14 +905,52 @@
 
 // console.log("2");
 
-console.log("a");
+// console.log("a");
 
-setTimeout(() => {
-  console.log("1");
-}, 5000);
+// setTimeout(() => {
+//   console.log("1");
+// }, 5000);
 
-setTimeout(() => {
-  console.log("2");
-}, 1000);
+// setTimeout(() => {
+//   console.log("2");
+// }, 1000);
 
-console.log("b");
+// console.log("b");
+// const person = {
+//   firstName: "daris",
+//   lastName: "da",
+//   fullName: function () {
+//     console.log(this);
+//     console.log(this.firstName + " " + this.lastName);
+//   },
+// };
+
+// const person1 = {
+//   firstName: "John",
+//   lastName: "Doe",
+// };
+
+// const person2 = {
+//   firstName: "Mary",
+//   lastName: "Doe",
+// };
+
+// // This will return "John Doe":
+// person.fullName.call(person1);
+
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  fullName: function () {
+    console.log(this.firstName + " " + this.lastName);
+  },
+};
+
+const member = {
+  firstName: "Hege",
+  lastName: "Nilsen",
+};
+
+let a = person.fullName.bind(member);
+
+a();
